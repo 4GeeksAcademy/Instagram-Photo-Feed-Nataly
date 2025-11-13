@@ -76,114 +76,128 @@
   </nav>
 
   <div class="container my-3 text-center">
-    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-      <label class="btn btn-outline-primary" for="btnradio1">
+    <div class="btn-group" role="group" aria-label="vistas">
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#vistaFila"
+        aria-expanded="true" aria-controls="vistaFila">
         <i class="fa-solid fa-square" style="color: #c2c4c7;"></i>
-      </label>
-
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-      <label class="btn btn-outline-primary" for="btnradio2">
+      </button>
+      <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#vistaGrid"
+        aria-expanded="false" aria-controls="vistaGrid">
         <i class="fa-solid fa-grip" style="color: #9c9ea0;"></i>
-      </label>
+      </button>
     </div>
   </div>
 
-  <div id="galeria" class="container">
-    <div class="row justify-content-center gy-4">
-      <div class="card" style="width: 30rem;">
-        <h5 class="card-title">Un atardecer en la playa</h5>
-        <img src="img/atardecer.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text"><strong>429 likes</strong><br> Un recuerdo de un hermoso atardecer en la playa </p>
+
+    <div class="accordion" id="vistaAcordion">
+    <div class="container collapse show" id="vistaFila" data-bs-parent="#vistaAcordion">
+
+      
+      <div class="row justify-content-center gy-4">
+        <div class="card" style="width: 30rem;">
+          <h5 class="card-title">Un atardecer en la playa</h5>
+          <img src="img/atardecer.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>429 likes</strong><br> Un recuerdo de un hermoso atardecer en la playa </p>
+          </div>
         </div>
       </div>
-    </div>
-    <br>
-
-    <div class="row justify-content-center gy-4">
-      <div class="card" style="width: 30rem;">
-        <h5 class="card-title">El duo perfecto</h5>
-        <img src="img/libroycafe.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text"><strong>294 likes</strong><br> Un buen libro y Un delicioso café </p>
-        </div>
-      </div>
-    </div>
-    <br>
-
-
-    <div class="row justify-content-center gy-4">
-      <div class="card" style="width: 30rem;">
-        <h5 class="card-title">Un jardin único</h5>
-        <img src="img/jardines.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text"><strong>924 likes</strong><br> Amo la naturaleza de mi jardin </p>
-        </div>
-      </div>
-    </div>
-
-    <br>
-
-    <div class="row justify-content-center gy-4">
-      <div class="card" style="width: 30rem;">
-        <h5 class="card-title">Los bebés</h5>
-        <img src="img/imagen2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text"><strong>4290 likes</strong><br> Mis gatitos bebés, son una dulzura </p>
-        </div>
-      </div>
-    </div>
-  
       <br>
 
-    <div class="row justify-content-center gy-4">
-      <div class="card" style="width: 30rem;">
-        <h5 class="card-title">Lindo gatito naranja</h5>
-        <img src="img/imagen3.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text"><strong>4000 likes</strong><br> Un pequeño gatito naranja en su primer dia al aire libre </p>
+      <div class="row justify-content-center gy-4">
+        <div class="card" style="width: 30rem;">
+          <h5 class="card-title">El duo perfecto</h5>
+          <img src="img/libroycafe.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>294 likes</strong><br> Un buen libro y Un delicioso café </p>
+          </div>
         </div>
       </div>
-    </div>
+      <br>
 
-    <br>
 
-    <div class="row justify-content-center gy-4">
-      <div class="card" style="width: 30rem;">
-        <h5 class="card-title">Cena familiar</h5>
-        <img src="img/cena.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text"><strong>2900 likes</strong><br> Nuestra cena en familia, en el jardin de mi casa </p>
+      <div class="row justify-content-center gy-4">
+        <div class="card" style="width: 30rem;">
+          <h5 class="card-title">Un jardin único</h5>
+          <img src="img/jardines.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>924 likes</strong><br> Amo la naturaleza de mi jardin </p>
+          </div>
         </div>
       </div>
-    </div>
+
+      <br>
+
+      <div class="row justify-content-center gy-4">
+        <div class="card" style="width: 30rem;">
+          <h5 class="card-title">Los bebés</h5>
+          <img src="img/imagen2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>4290 likes</strong><br> Mis gatitos bebés, son una dulzura </p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row justify-content-center gy-4">
+        <div class="card" style="width: 30rem;">
+          <h5 class="card-title">Lindo gatito naranja</h5>
+          <img src="img/imagen3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>4000 likes</strong><br> Un pequeño gatito naranja en su primer dia al aire
+              libre </p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row justify-content-center gy-4">
+        <div class="card" style="width: 30rem;">
+          <h5 class="card-title">Cena familiar</h5>
+          <img src="img/cena.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><strong>2900 likes</strong><br> Nuestra cena en familia, en el jardin de mi casa </p>
+          </div>
+        </div>
+      </div>
 
   </div>
-</div>
-
-
-
-
-  </div>
-  </div>
   </div>
 
-<script>
-  const galeria= document.getElementById('galeria');
-  document.getElementById('btnradio1').addEventListener('click', () => {
-    galeria.className = 'row row-cols-1 g-4';
-    galeria.querySelectorAll('.card-body, .card-footer,.card-title').forEach(el => {
-      el.style.display = 'block';
-    });
-  });
-  document.getElementById('btnradio2').addEventListener('click', () => {
-    galeria.className = 'row row-cols-1 row-cols-md-3 g-4';
-    galeria.querySelectorAll('.card-body, .card-footer,.card-title').forEach(el => {
-      el.style.display = 'none';
-    });
-  });
-</script>
+
+
+<div class="collapse" id="vistaGrid" data-bs-parent="#vistaAcordion">
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="card" >
+          <img src="img/atardecer.jpg" class="card-img-top" alt="...">
+        </div>
+
+        <div class="card" >
+          <img src="img/libroycafe.jpg" class="card-img-top" alt="...">
+        </div>
+      
+        <div class="card" >
+          <img src="img/jardines.jpg" class="card-img-top" alt="...">
+        </div>
+      
+
+        <div class="card" >
+          <img src="img/imagen2.jpg" class="card-img-top" alt="...">
+        </div>
+        
+        <div class="card" >
+          <img src="img/imagen3.jpg" class="card-img-top" alt="...">
+        </div>
+
+        <div class="card" >
+          <img src="img/cena.jpg" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+  </div>
+
 </body>
-
 </html>
